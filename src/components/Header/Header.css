@@ -1,0 +1,19 @@
+.header-container{
+    height: 800px;
+    position: relative;
+    background-image: url(../../images/backBg.png);
+    background-size: cover;
+    
+}
+
+.header-container:after{
+    content: " ";
+    position: absolute;
+    height: 700px;
+    top:0;
+    right: 0;
+    width: 30%;
+    background-color:  #3A4256;
+    z-index: -1;
+
+}
